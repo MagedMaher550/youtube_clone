@@ -1,5 +1,10 @@
-export { default as Navbar } from "./Navbar";
-export { default as Feed } from "./Feed";
-export { default as ChannelDetails } from "./ChannelDetails";
-export { default as SearchFeed } from "./SearchFeed";
-export { default as VideoDetails } from "./VideoDetails";
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as SearchBar } from "./Navbar/SearchBar";
+export { default as Feed } from "./Feed/Feed";
+export { default as SideBar } from "./Feed/SideBar";
+export { default as ChannelDetails } from "./Channels/ChannelDetails";
+export { default as ChannelCard } from "./Channels/ChannelCard";
+export { default as SearchFeed } from "./Feed/SearchFeed";
+export { default as VideoDetails } from "./Videos/VideoDetails";
+export { default as VideoCard } from "./Videos/VideoCard";
+export { default as Videos } from "./Videos/Videos";
